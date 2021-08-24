@@ -15,6 +15,11 @@ namespace operaciones
             bebida.Beberse(500);
 
             Console.WriteLine(bebida.Cantidad);
+
+            Cerveza cerveza = new Cerveza();
+            cerveza.Beberse(10);
+
+            Console.WriteLine(cerveza.Cantidad);
             Console.ReadKey();
         }
     }
